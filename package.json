@@ -1,0 +1,29 @@
+{
+  "name": "udacclouddev-microsvcs_design_6reverseproxy",
+  "version": "1.0.0",
+  "description": "Udacity exercise to dockerize and kubernete a hello world app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resmith/udacCloudDev-MicroSvcs_Design_6ReverseProxy.git"
+  },
+  "keywords": [
+    "docker",
+    "kubernete",
+    "hello",
+    "world"
+  ],
+  "author": "R E Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resmith/udacCloudDev-MicroSvcs_Design_6ReverseProxy/issues"
+  },
+  "homepage": "https://github.com/resmith/udacCloudDev-MicroSvcs_Design_6ReverseProxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
