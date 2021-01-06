@@ -9,14 +9,14 @@ services:
 install:
   - echo "nothing needs to be installed pre-test"
 
-# Scripts to be rrun such as test
+# Scripts to be run such as test
 before_script:
   - echo "no tests"
 
 script:
   - docker --version
-  - docker build -t hello_world .
-  - docker tag hello_world theresmith/hello_world:latest
+  - docker build express_helloworld .
+  - docker tag express_helloworld theresmith/express_helloworld:latest
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
